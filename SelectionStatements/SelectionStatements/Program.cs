@@ -1,6 +1,4 @@
 ﻿using System;
-
-
 namespace SelectionStatements
 {
     class Program
@@ -14,14 +12,12 @@ namespace SelectionStatements
             while (playAgain)
             {
                 int userGuess = Convert.ToInt32(Console.ReadLine());
-                while (userGuess != favNum)
+                do
                 {
                     if (userGuess > favNum) { Console.WriteLine("Thats a little high!"); }
                     else if (userGuess < favNum) { Console.WriteLine("Thats too low!"); }
-                    {
-                        break;
-                    }
-                }
+                    { break; }
+                } while (userGuess != favNum);
                 if (userGuess == favNum) 
                 {
                     Console.WriteLine("That's right you got it!\nWould you like to play again ? (y / n)");
