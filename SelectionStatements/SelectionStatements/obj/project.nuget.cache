@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NagyQqD7wIwzgiep/CrxcWMBm4piPZHuLc5bbbxCWSbYcs8GNey3smoxmRGEO4YugVQ0isVOtblOu98dUTJXmg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ego\\repos\\SelectionStatements\\SelectionStatements\\SelectionStatements\\SelectionStatements.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ego\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.20\\microsoft.netcore.app.host.win-x64.3.1.20.nupkg.sha512"
+  ],
+  "logs": []
+}
